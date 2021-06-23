@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.mid-content{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Calibri', sans-serif;
+}
+
+.header-section {
+	background: #24c2a4;
+	padding: 32px 0;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.header-logo{}
+.header-logo a{
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.header-menu{}
+.header-menu ul {
+	text-align: center;
+	line-height: 43px;
+}
+.header-menu ul li{
+    display: inline-block;
+}
+.header-menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 15px;
+}
+
+.banner-section{
+    background-image: url(https://i.ibb.co/bB1d0Dr/header-bg01.jpg?fbclid=IwAR0-B2I3Hz5UtKfg92OgHyzG1wEZcyJK7SFMwTJ783if-uGjQeXLI4T1rXs);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+}
+.banner-section h2{
+    font-size: 50px;
+}
+.banner-section p{
+    margin: 20px 0;
+}
+.banner-section a{
+    display: inline-block;
+     text-decoration: none;
+     color: white;
+     padding: 5px 20px;
+     border: 1px solid white;
+     border-radius: 5px;
+     transition: .4s;
+     text-transform: uppercase;
+}
+.banner-section a:hover{
+    color: #24c2a4;
+    background: white;
+}
+.service-section{
+    
+}
+.default-style{
+    margin: 50px 0;
+    text-align: center;
+}
+.default-style h1{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.default-style p{
+    color: #8c8c8c;
+}
+.service-section{
+    text-align: center;
+    padding-bottom: 90px;
+    border-bottom: 3px solid #24c2a4;
+}
+.service-section .design-section {
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 0 25px;
+    margin-top: 20px;
+}
+.service-section .design-section i {
+	font-size: 50px;
+	color: #0dbf9b;
+}
+.service-section .design-section h3 {
+	padding: 15px 0;
+    font-weight: 600;
+}
+.service-section .design-section p{
+    color: #8c8c8c;
+}
+
+.about-section .about-image {
+	width: 48%;
+	display: inline-block;
+}
+.about-section .about-image img {
+	max-width: 100%;
+	height: 357px;
+}
+.about-section .about-text {
+	display: inline-block;
+    width: 48%;
+
+}
+.about-section{
+    padding-bottom: 50px;
+}
+.about-section .about-details{
+}
+.about-section .about-text h2 {
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+.about-section .about-text p {
+	color: #8c8c8c;
+	margin-bottom: 22px;
+}
+
+
+.contact-section{
+    text-align: center;
+    background: #f6f6f6;
+    padding: 20px 0 60px 0;
+}
+.contact-section .contact-icon {
+	display: inline-block;
+	padding: 0 50px;
+}
+.contact-section .contact-icon i{
+    font-size: 22px;
+    color: #24c2a4;
+    margin-bottom: 15px;
+}
+.contact-section .contact-icon p{
+    color: #8c8c8c;
+    margin-bottom: 5px;
+}
+
+.footer-section{
+    background: #24c2a4;
+    padding: 35px 0;
+}
+.footer-section .footer-icon{
+
+}
+.footer-section .footer-icon ul{
+    text-align: center;
+    padding-bottom: 0;
+}
+.footer-section .footer-icon ul li{
+    display: inline-block;
+}
+.footer-section .footer-icon ul li a{
+    color: white;
+    list-style: none;
+    font-size: 20px;
+    padding: 0 15px;
+}
